@@ -1,0 +1,54 @@
+#honolulu{
+    background-image:url(/img/honolulu.jpg);
+    background-size: cover;
+    height: 645px;
+}
+#lulu{
+    height: 645px;
+    padding: 0%;
+}
+
+header{
+    color: white;
+}
+.textoprincipal{
+    height: 95vh;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    
+}
+.card-img-top {
+    height: 28rem;
+    object-fit: cover;
+}
+
+   
+.imagenprincipal{
+    background-image: url(/img/ba1.jpg);
+    background-color: black;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    filter: brightness(0.566);
+    z-index: 1;
+    position: absolute;
+}
+
+.oradores{
+    margin-bottom: 5em;
+}
+
+.preoradores{
+    display: grid;
+    grid-template-columns:auto;
+    justify-items: center;  
+}
+
+footer{
+    margin-top: 5em;
+}
+
+
+
+
