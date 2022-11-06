@@ -11,6 +11,16 @@
 header{
     color: white;
 }
+a{
+    text-decoration:none;
+}
+.descuentos{
+    height:14rem;
+    width: 14rem;
+    object-fit: cover;
+    text-align: center;
+}
+
 .textoprincipal{
     height: 95vh;
     width: 100%;
@@ -49,6 +59,8 @@ footer{
     margin-top: 5em;
 }
 
-
+.forms{
+    margin-top: 2%;
+}
 
 

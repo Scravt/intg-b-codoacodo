@@ -1,4 +1,3 @@
-//var cantidad=document.getElementById("cantidad");
 
 var total=document.getElementById("total11");
 var Valordetiket = 200

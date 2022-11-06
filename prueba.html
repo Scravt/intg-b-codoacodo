@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <DIV class="container">
+        <div class="row justify-content-center"> 
+          <form id="Forms">
+              <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+              </div>
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+              </textarea>    
+              <div class="row forms">
+                <div class="col">
+                  <label for="input">Cantidad</label>
+                  <input type="number" class="form-control" id="cantidad">
+                </div>
+                <div class="col">
+                  <label for="input">Categoria</label>
+                  <select id="inputState" class="form-control">
+                    <option selected> Condicion</option>
+                    <option value="1">Estudiante</option>
+                    <option value="2">Train</option>
+                    <option value="3">Junior</option>
+                    <option value="4">Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="alert alert-primary forms" role="alert">
+                Total a pagar: $ <span id="total11"></span>
+              </div>
+              <div class="row forms">     
+                <button type="button" id="Borrar" class="btn btn-success w-100 m-2  col"> Borrar</button>    
+                <button type="button" id="resumen"  class="btn btn-success w-100 m-2  col"> resumen</button>
+              </div>   
+            </form>        
+        </div>
+      </DIV>
+      <script src="cuentas.js"></script>
+</body>
+</html>
