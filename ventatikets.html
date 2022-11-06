@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Ticket</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cuentas.js"></script>
+</head>
+<body>
+  <header>
+    <!-- barra de arriba-->
+    <var  class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">                
+            <span>
+                <img src="img/codoacodo.png" alt="Codo a Codo" width="100" height="50" class="d-inline-block">
+                Conf Bs As 
+            </span> 
+                                           
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link  text-white" aria-current="page" href="#">Conferencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white-50" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white-50 " href="#">Lugar y fecha</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white-50 "href="#" > Conviertete en orador</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-success "href="#" >Comprar tikets</a> 
+                </li>
+            </ul>
+            </span>
+        </div>
+    </var>
+  </header>
+
+   <!-- tarjetas-->
+  <div class="d-flex container p-2" >
+    <div class= " d-flex p-2 container-fluid justify-content-between">
+          <span class="border border-primary m-1 descuentos justify-content-center">
+            <h2>Estudiante</h2>
+            tienen descuento
+            <h3>80%</h3>
+            *presentar documentacion
+          </span>
+        
+          <span class="border border-success m-1 descuentos ">
+            <h2>Trainee</h2>
+            tienen descuento
+            <h3>50%</h3>
+            *presentar documentacion
+          </span>
+        
+          <span class="border border-warning m-1 descuentos">
+            <h2>Junior</h2>
+            tienen descuento
+            <h3>15%</h3>
+            *presentar documentacion
+          </span>
+    </div> 
+  </div>
+
+  <DIV class="container">
+    <div class="row justify-content-center"> 
+      <form id="Forms">
+          <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+          </div>
+          <label for="exampleInputEmail1"></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+          </textarea>    
+          <div class="row forms">
+            <div class="col">
+              <label for="input">Cantidad</label>
+              <input type="number" class="form-control" id="cantidad">
+            </div>
+            <div class="col">
+              <label for="input">Categoria</label>
+              <select id="inputState" class="form-control">
+                <option selected> Condicion</option>
+                <option value="1">Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+                <option value="4">Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="alert alert-primary forms" role="alert">
+            Total a pagar: $ <span id="total11"></span>
+          </div>
+          <div class="row forms">     
+            <a href="ventatikets.html" class="text-white col pl-0"><button type="button" id="Borrar"  class="btn btn-success w-100 m-2  ">  Borrar</button></a>
+            <button type="button" id="resumen"  class="btn btn-success w-100 m-2  col"> resumen</button>
+          </div>   
+        </form>        
+    </div>
+  </DIV>
+  <script src="cuentas.js"></script>
+
+
+
+<div class="preoradores"> 
+    <div>Venta</div>
+    <h2> VALOR DEL TICKET $200</h2>   
+</div>
+
+  <footer class="navbar-dark bg-dark p-4">
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        <a class="nav-link text-white-50 " href="#">Preguntas frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Prensa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Conferencias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Terminos y condiciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Privacidad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white-50" href="#">Estudiantes</a>
+      </li>
+    </ul> 
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
